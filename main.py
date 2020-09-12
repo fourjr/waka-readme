@@ -69,7 +69,7 @@ def get_stats() -> str:
     data = '\n'.join(data_list)
     if show_title == 'true':
         print("Stats with Weeks in Title Generated")
-        return '```text\n'+this_week()+'\n\n\n'+data+'\n```'
+        return '```text\n'+this_week()+'\n\n'+data+'\n```'
     else:
         print("Usual Stats Generated")
         return '```text\n'+data+'\n```'
